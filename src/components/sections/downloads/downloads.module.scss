@@ -1,0 +1,16 @@
+.downloads {
+  padding: 5rem 0;
+}
+
+.download_btn {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  max-width: 300px;
+  margin: 0 auto;
+  :global img {
+    width:24px;
+    margin-right:.5rem;
+  }
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="103.51732758994183" width="89.99999999999983">
+  <defs>
+    <path id="path-0" opacity="1" fill-rule="evenodd" d="M-5.684341886080802e-14,37.02311706546584 L-5.684341886080802e-14,65.45130581840637 L24.069767441860392,51.237211441936104 L-5.684341886080802e-14,37.02311706546584Z"/>
+    <path id="path-1" opacity="1" fill-rule="evenodd" d="M32.965116279069605,37.02311706546584 L32.965116279069605,65.45130581840637 L57.034883720930054,51.237211441936104 L32.965116279069605,37.02311706546584Z"/>
+    <path id="path-2" opacity="1" fill-rule="evenodd" d="M-5.684341886080802e-14,1.1368683772161603e-13 L-5.684341886080802e-14,28.428188752940613 L24.069767441860392,14.214094376470364 L-5.684341886080802e-14,1.1368683772161603e-13Z"/>
+    <path id="path-3" opacity="1" fill-rule="evenodd" d="M32.965116279069605,1.1368683772161603e-13 L32.965116279069605,28.428188752940613 L57.034883720930054,14.214094376470364 L32.965116279069605,1.1368683772161603e-13Z"/>
+    <path id="path-4" opacity="1" fill-rule="evenodd" d="M-5.684341886080802e-14,75.08913883700143 L-5.684341886080802e-14,103.51732758994196 L24.069767441860392,89.30323321347169 L-5.684341886080802e-14,75.08913883700143Z"/>
+    <path id="path-5" opacity="1" fill-rule="evenodd" d="M32.965116279069605,75.08913883700143 L32.965116279069605,103.51732758994196 L57.034883720930054,89.30323321347169 L32.965116279069605,75.08913883700143Z"/>
+    <path id="path-6" opacity="1" fill-rule="evenodd" d="M65.93023255813932,37.02311706546584 L65.93023255813932,65.45130581840637 L89.99999999999977,51.237211441936104 L65.93023255813932,37.02311706546584Z"/>
+    <path id="path-7" opacity="1" fill-rule="evenodd" d="M65.93023255813932,1.1368683772161603e-13 L65.93023255813932,28.428188752940613 L89.99999999999977,14.214094376470364 L65.93023255813932,1.1368683772161603e-13Z"/>
+    <path id="path-8" opacity="1" fill-rule="evenodd" d="M65.93023255813932,75.08913883700143 L65.93023255813932,103.51732758994196 L89.99999999999977,89.30323321347169 L65.93023255813932,75.08913883700143Z"/>
+  </defs>
+  <g opacity="1">
+    <g opacity="1">
+      <g opacity="0.23">
+        <use xlink:href="#path-0" fill="rgb(111,166,206)" fill-opacity="1"/>
+      </g>
+    </g>
+    <g opacity="1">
+      <g opacity="0.23">
+        <use xlink:href="#path-1" fill="rgb(111,166,206)" fill-opacity="1"/>
+      </g>
+    </g>
+    <g opacity="1">
+      <g opacity="0.23">
+        <use xlink:href="#path-2" fill="rgb(111,166,206)" fill-opacity="1"/>
+      </g>
+    </g>
+    <g opacity="1">
+      <g opacity="0.23">
+        <use xlink:href="#path-3" fill="rgb(111,166,206)" fill-opacity="1"/>
+      </g>
+    </g>
+    <g opacity="1">
+      <g opacity="0.23">
+        <use xlink:href="#path-4" fill="rgb(111,166,206)" fill-opacity="1"/>
+      </g>
+    </g>
+    <g opacity="1">
+      <g opacity="0.23">
+        <use xlink:href="#path-5" fill="rgb(111,166,206)" fill-opacity="1"/>
+      </g>
+    </g>
+    <g opacity="1">
+      <g opacity="0.23">
+        <use xlink:href="#path-6" fill="rgb(111,166,206)" fill-opacity="1"/>
+      </g>
+    </g>
+    <g opacity="1">
+      <g opacity="0.23">
+        <use xlink:href="#path-7" fill="rgb(111,166,206)" fill-opacity="1"/>
+      </g>
+    </g>
+    <g opacity="1">
+      <g opacity="0.23">
+        <use xlink:href="#path-8" fill="rgb(111,166,206)" fill-opacity="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

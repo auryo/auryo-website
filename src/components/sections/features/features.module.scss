@@ -1,0 +1,27 @@
+.features_bg {
+  position: absolute;
+  width: 110vw;
+  left: 0;
+  margin-left: -5vw;
+  opacity: .8;
+}
+
+.screenshot__after {
+  position: absolute;
+  top: 0;
+  margin-top: -2.3rem;
+  z-index: -1;
+  left:0;
+}
+
+.features{
+  padding: 10rem 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.feature_img{
+  width: 60px;
+  margin-bottom: 1.5rem;
+  margin-top: 9rem;
+}

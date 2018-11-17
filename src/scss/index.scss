@@ -1,0 +1,111 @@
+// Colors
+//
+// Grayscale and brand colors for use across Bootstrap.
+// Start with assigning color names to specific hex values.
+//
+// Color system
+//
+@import './colors.scss';
+// Reassign color vars to semantic color scheme
+$theme-colors: ( primary: $blue, secondary: $gray-600, success: $green, info: $cyan, warning: $yellow, danger: $red, light: $gray-100, dark: $gray-800, ) !default;
+// Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+$enable-rounded: true !default;
+$enable-shadows: true !default;
+$enable-gradients: false !default;
+$enable-transitions: false !default;
+$enable-hover-media-query: false !default;
+$enable-grid-classes: true !default;
+$enable-print-styles: true !default;
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+// Body
+//
+// Settings for the `<body>` element.
+$body-bg: $white !default;
+$body-color: $gray-700 !default;
+$inverse-bg: $gray-900 !default;
+$inverse-color: $gray-600 !default;
+// Links
+//
+// Style anchor elements.
+$link-decoration: none !default;
+$link-hover-decoration: none !default;
+$border-radius:8px;
+$btn-box-shadow:none;
+$btn-active-box-shadow:none;
+$btn-focus-box-shadow:none;
+$input-btn-padding-y: .375rem !default;
+$input-btn-padding-x: .75rem !default;
+$input-btn-focus-width: 0 !default;
+$input-btn-focus-box-shadow: none;
+$input-btn-padding-y-sm: .25rem !default;
+$input-btn-padding-x-sm: .5rem !default;
+$input-btn-padding-y-lg: .5rem !default;
+$input-btn-padding-x-lg: 1rem !default;
+$input-btn-border-width: 3px !default;
+$gradient:linear-gradient(135deg, #6fa6ce 0%, #0275d8 100%) !important;
+//
+@import './fonts.scss';
+@import '~bootstrap/scss/bootstrap.scss';
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.btn {
+  &:not(.btn-link) {
+    box-shadow: 5px 8px 30px rgba(0, 0, 0, 0.2);
+    &:hover,
+    &:active {
+      box-shadow: 5px 8px 30px rgba(0, 0, 0, 0.3);
+    }
+  }
+  border-radius: 3px;
+  padding: .8rem 2rem;
+  &.btn-sm {
+    padding: .4rem 1rem;
+  }
+  &[class*="btn-outline-"] {
+    box-shadow: none !important;
+    padding: calc(.8rem - 3px) calc(2rem - 3px);
+  }
+  &.btn-primary {
+    background-image: $gradient;
+    background-repeat: repeat-x;
+    border: none;
+  }
+}
+
+.badge {
+  &.badge-primary {
+    background: $gradient;
+  }
+}
+
+.overflow-hidden {
+  overflow-x: hidden;
+}
+
+.react-parallax-bgimage {
+  width: calc(100% + 2vw) !important;
+  margin-left: -1vw;
+  margin-right: -1vw;
+}
+
+footer .bottom a {
+  color: white !important;
+  text-decoration: underline;
+  opacity: .8;
+  &:hover {
+    opacity: 1;
+  }
+}
