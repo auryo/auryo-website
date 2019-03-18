@@ -22,7 +22,7 @@ const Contributing = () => (
           <img src={donateMoney} alt="contribute money" />
           <h3>You love the app and would like to support development.</h3>
           <p>Maintaining and adding new features to the app takes time. Your support will allow us to make the app better. It will also cover costs like code signing.</p>
-          <a href="https://opencollective.com/auryo" rel="noopener noreferrer" target="_blank" className="btn btn-outline-secondary">Donate</a>
+          <a href="https://www.patreon.com/sneljo" rel="noopener noreferrer" target="_blank" className="btn btn-outline-secondary">Donate</a>
         </div>
       </div>
     </div>

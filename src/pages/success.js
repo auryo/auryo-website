@@ -29,23 +29,6 @@ class SuccessPage extends React.PureComponent {
 
             </div>
           </div>
-
-          <div className="py-5"></div>
-
-          <div className="row pt-5">
-            <div className="col-12 col-md-6">
-              <div className="h5">Backers</div>
-              <a href="https://opencollective.com/auryo">
-                <img alt="backers" class="img-fluid" src="https://opencollective.com/auryo/tiers/backer-💪.svg?width=600" />
-              </a>
-            </div>
-            <div className="col-12 col-md-6">
-              <div className="h5">Sponsors</div>
-              <a href="https://opencollective.com/auryo">
-                <img alt="sponsors" class="img-fluid" src="https://opencollective.com/auryo/tiers/sponsors-🏆.svg?width=600" />
-              </a>
-            </div>
-          </div>
         </header>
       </Layout>
     );

@@ -41,21 +41,6 @@ const IndexPage = () => (
       render={data => <Downloads data={get(data, "allGithubRelease.edges[0].node", {})} />} />
     <footer className="text-white bg-dark py-3">
       <div className="container">
-        <div className="row py-3 mb-3">
-          <div className="col-12 col-md-6">
-            <div className="h5">Backers</div>
-            <a href="https://opencollective.com/auryo">
-              <img alt="backers" class="img-fluid" src="https://opencollective.com/auryo/tiers/backer-💪.svg?width=600" />
-            </a>
-          </div>
-          <div className="col-12 col-md-6">
-            <div className="h5">Sponsors</div>
-            <a href="https://opencollective.com/auryo">
-              <img alt="sponsors" class="img-fluid" src="https://opencollective.com/auryo/tiers/sponsors-🏆.svg?width=600" />
-            </a>
-          </div>
-        </div>
-
         <div class="row justify-content-between bottom">
           <div class="col-12 col-md">This is an unoffical app and is not affiliated with SoundCloud.</div>
           <div class="col-12 col-md text-right">
